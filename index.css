@@ -1,0 +1,207 @@
+body{
+	max-width: 960px;
+	min-width: 660px;
+	margin: auto;
+}
+header ul{
+	list-style-type:none;
+
+}
+#head{
+	position: relative;
+}
+.topnav{
+		padding-top:20px; 
+}
+.topnav li{
+	display: inline;
+}
+.topnav a{
+	text-decoration: none;
+	color: black;
+}
+.nav1{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	border-bottom: 1px dotted black;
+}
+.nav2{
+	position: absolute;
+	top:1.5em;
+	right: 0px;
+}
+#upband{
+	margin-left: -58px;
+	margin-top:0px; 
+}
+article ul{
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+.content{
+	display: flex;
+	margin-top: 0px;
+	/*width: 960px;*/
+}
+.titleair{
+	flex:3;
+}
+.arrow1, .arrow2{
+	flex:1;
+}
+.arrow1 a{
+	display: inline-block;
+	text-decoration: none;
+}
+.arrow2 a{
+	display: inline-block;
+	text-decoration: none;
+}
+.arrow1 li{
+	border-bottom: 1px dotted black; 
+}
+.arrow2 li{
+	border-bottom: 1px dotted black; 
+}
+.content a:visited{
+	color: red;
+}
+.content a:hover{
+	color: orange;
+}
+.content2{
+	display: flex;
+	margin-top: 5px;
+}
+.content2_1{
+	flex:2;
+	background-color: black;
+	color: white;
+	padding-left:1em; 
+	padding-top: 1em;
+}
+.content2_1 strong{
+	color: orange;
+}
+.content2_1 pre{
+	line-height: 1.7em;
+		margin-bottom:0px; 
+}
+/*下半部的div*/
+.content3{
+	display: flex;
+	margin-top:20px; 
+}
+/*左半部的div*/
+.content4{
+	flex: 71%;
+	margin-right:1%; 
+}
+aside{
+	flex: 27%;
+	border-top: 4px solid #99CC00;
+	margin-right: 1%;
+	background-color:#EEF5DF;
+}
+.musicem{
+	font-size: 1.4em;
+	color: #669933;
+}
+#table1 td:nth-child(1){
+	width:20%;
+	text-align: center;
+}
+#table1 td:nth-child(2){
+	width:40%;
+}
+#table1 td:nth-child(3){
+	width:40%;
+}
+article #table1{
+	width: 100%;
+	background-color: #EEF5DF;
+}
+article #table1 tr:nth-child(1){
+	background-color:#99CC00;
+}
+article #table1 tr:nth-child(9){
+	background-color: white;
+	font-weight: bold;
+}
+article #table1 tr:nth-child(20){
+	background-color: white;
+	font-weight: bold;
+}
+
+.faketable{
+	display: flex;
+	border-bottom: 1px  dotted orange;
+	margin-top:15px; 
+}
+.faketable1{
+	display: flex;
+	margin-top:15px; 
+}
+.weirdpicture{
+	margin: 5px 0px 5px 0px;
+}
+.sixtytwo{
+	flex:62%;
+	margin: 5px 10px 5px 10px;
+}
+.sixtytwo h3{
+	font-size: 15px;
+	color: #669933;
+}
+.sixtytwo p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.orangeone{
+	color: orange;
+}
+aside #firstp{
+	color:#666666;
+	font-size: 1.0em;
+}
+.attention{
+	margin: 8px;
+	font-size: 1.2em;
+	color: #669933;
+}
+#top{
+	display: block;
+	text-align: right;
+	margin-top:30px; 
+}
+.zeroseven{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+#fortyfive a{
+	font-size: 0.7em;
+	line-height: 1.7;
+}
+#lastpart{
+	display: flex;
+	border-top: 1px dotted;
+	border-bottom: 10px solid;
+	border-color: rgb(192,192,192);
+	margin-bottom: 25px;
+	align-items: center;
+}
+#one{
+	display: flex;
+	align-items: center;
+	flex:5.5;
+}
+#two{
+	text-align: right;
+	flex:4.5;
+}
+#two a{
+	display: inline-block;
+	color: black;
+    text-decoration: none;
+}
