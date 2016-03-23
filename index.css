@@ -1,11 +1,12 @@
+/*基本設定*/
 body{
 	max-width: 960px;
 	min-width: 660px;
 	margin: auto;
 }
+/*調整header的部分*/
 header ul{
 	list-style-type:none;
-
 }
 #head{
 	position: relative;
@@ -20,17 +21,20 @@ header ul{
 	text-decoration: none;
 	color: black;
 }
+/*政治大學~聯絡我們*/
 .nav1{
 	position: absolute;
 	top:0px;
 	right: 0px;
 	border-bottom: 1px dotted black;
 }
+/*首頁到網站地圖及兩個icon*/
 .nav2{
 	position: absolute;
 	top:1.5em;
 	right: 0px;
 }
+/*序幕~.....*/
 #upband{
 	margin-left: -58px;
 	margin-top:0px; 
@@ -39,14 +43,12 @@ article ul{
 	list-style-type: none;
 	margin: 0 0 0 0;
 }
-.content{
-	display: flex;
-	margin-top: 0px;
-	/*width: 960px;*/
-}
+/*政大第12屆駐校藝術家*/
 .titleair{
 	flex:3;
 }
+/*arrow1是節目總覽|序言~李泰祥影音文件展*/
+/*arrow2是音樂工作坊~每日有獎徵答*/
 .arrow1, .arrow2{
 	flex:1;
 }
@@ -64,16 +66,23 @@ article ul{
 .arrow2 li{
 	border-bottom: 1px dotted black; 
 }
+/*content是節目總覽~每日有獎徵答*/
+.content{
+	display: flex;
+	margin-top: 0px;
+}
 .content a:visited{
 	color: red;
 }
 .content a:hover{
 	color: orange;
 }
+/*content2是中間三個黑色圖跟部分文字的div*/
 .content2{
 	display: flex;
 	margin-top: 5px;
 }
+/*content2_1是黑色圖中間的文字*/
 .content2_1{
 	flex:2;
 	background-color: black;
@@ -88,26 +97,29 @@ article ul{
 	line-height: 1.7em;
 		margin-bottom:0px; 
 }
-/*下半部的div*/
+/*下半部的div 包括音樂會曲目及參加音樂會觀眾注意事項*/
 .content3{
 	display: flex;
 	margin-top:20px; 
 }
-/*左半部的div*/
+/*左半部的div 音樂會曲目*/
 .content4{
 	flex: 71%;
 	margin-right:1%; 
 }
+/*參加音樂會觀眾注意事項*/
 aside{
 	flex: 27%;
 	border-top: 4px solid #99CC00;
 	margin-right: 1%;
 	background-color:#EEF5DF;
 }
+/*設定成老師的要求1.4em*/
 .musicem{
 	font-size: 1.4em;
 	color: #669933;
 }
+/*表格的基本設定*/
 #table1 td:nth-child(1){
 	width:20%;
 	text-align: center;
@@ -118,22 +130,23 @@ aside{
 #table1 td:nth-child(3){
 	width:40%;
 }
-article #table1{
+#table1{
 	width: 100%;
 	background-color: #EEF5DF;
 }
-article #table1 tr:nth-child(1){
+#table1 tr:nth-child(1){
 	background-color:#99CC00;
 }
-article #table1 tr:nth-child(9){
+#table1 tr:nth-child(9){
 	background-color: white;
 	font-weight: bold;
 }
-article #table1 tr:nth-child(20){
+#table1 tr:nth-child(20){
 	background-color: white;
 	font-weight: bold;
 }
 
+/*音樂會演出單位介紹的部分*/
 .faketable{
 	display: flex;
 	border-bottom: 1px  dotted orange;
@@ -143,9 +156,11 @@ article #table1 tr:nth-child(20){
 	display: flex;
 	margin-top:15px; 
 }
+/*音樂會演出單位介紹左邊的圖片設定*/
 .weirdpicture{
 	margin: 5px 0px 5px 0px;
 }
+/*老師作業規定寬62%*/
 .sixtytwo{
 	flex:62%;
 	margin: 5px 10px 5px 10px;
@@ -158,9 +173,11 @@ article #table1 tr:nth-child(20){
 	font-size: 12px;
 	line-height: 20px;
 }
+/*演出名單顏色改為橘色*/
 .orangeone{
 	color: orange;
 }
+/*邊攔*/
 aside #firstp{
 	color:#666666;
 	font-size: 1.0em;
@@ -170,6 +187,7 @@ aside #firstp{
 	font-size: 1.2em;
 	color: #669933;
 }
+/*top圖示的設定*/
 #top{
 	display: block;
 	text-align: right;
@@ -179,10 +197,7 @@ aside #firstp{
 	font-size: 0.7em;
 	line-height: 1.7;
 }
-#fortyfive a{
-	font-size: 0.7em;
-	line-height: 1.7;
-}
+/*footer的排版*/
 #lastpart{
 	display: flex;
 	border-top: 1px dotted;
